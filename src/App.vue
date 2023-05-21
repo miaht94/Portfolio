@@ -1,26 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PortfolioLayoutVue></PortfolioLayoutVue>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import PortfolioLayoutVue from "./components/PortfolioLayout.vue";
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic%7CInter:100,200,300,regular,500,600,700,800,900');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  margin: 0;
 }
 </style>
