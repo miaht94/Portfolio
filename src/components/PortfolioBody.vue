@@ -5,14 +5,14 @@
             <h1 >👋 Hi! I'm Xuan-Bach Tran </h1>
             <h2>I'm trying to <span class="raiden-shogun" @mousemove="showRaidenShogun" @mouseout="hideRaidenShogun" style="color:rgba(173, 52, 243, 0.814)">Unleash</span> the Power of Code!</h2>
         </div>
-        <img class="avatar-xs" src="https://media.tenor.com/2roX3uxz_68AAAAM/cat-space.gif"/>
+        <img class="avatar-xs" src="../assets/cat-space.gif"/>
     </div>
     
     <p>I am a final year student of University of Engineering and Technology - Vietnam National University (UET-VNU Vietnam) with a strong foundation in software development, combined with a deep love for problem-solving and innovation, I am dedicated to creating efficient and robust solutions that drive impactful results.</p>
     <img 
     :style="{'top': raidenShogunUnleashPosY + 40 + 'px', 'left': raidenShogunUnleashPosX + 'px'}"
     :hidden="!showRaidenShogunUnleash" 
-    class="raiden-shogun-unleash" src="https://media.tenor.com/RI1uo-UzpNAAAAAC/genshin-impact-raiden-shogun.gif" width="833" height="468.3534136546185" alt="Genshin Impact Raiden Shogun GIF - Genshin Impact Raiden Shogun Baal GIFs"/>
+    class="raiden-shogun-unleash" src="../assets/genshin-impact-raiden-shogun.gif" width="833" height="468.3534136546185" alt="Genshin Impact Raiden Shogun GIF - Genshin Impact Raiden Shogun Baal GIFs"/>
     <div class="project-section">
         <h1>My Lastest Project</h1>
         <div class="project-grid" >
